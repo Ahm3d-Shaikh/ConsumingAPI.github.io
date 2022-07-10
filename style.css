@@ -1,0 +1,118 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#backgroundimg{
+    width: 100%;
+    height: 80%;
+}
+
+#Heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #21243D;
+    padding-top: 20px;
+
+}
+
+
+#TextBar{
+    width: 300px;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 13px;
+    color: #21243D;
+
+}
+
+#Background{
+    position: absolute;
+    z-index: 1;
+    background-color: #87CEEB;
+    width: 80%;
+    height: 55%;
+    margin-top: 19%;
+    margin-left: 8%;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+
+#my-button{
+    position: absolute;
+    z-index: 2;
+    width: 33px;
+    height: 29px;
+    left: 286px;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #87CEEB;
+}
+
+#Backgroundimg{
+    width: 100%;
+}
+
+
+
+#temperature{
+    color: #21243D;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+#icon-image{
+    margin-left: 125px;
+    font-size: 30px;
+
+}
+
+
+@media screen and (min-width:480px) {
+    #Background{
+        position: absolute;
+        z-index: 1;
+        background-color: #87CEEB;
+        width: 30%;
+        height: 60%;
+        margin-top: 14%;
+        margin-left: 32%;
+        box-shadow: 0px 0px 20px 0px;
+    }
+}
+
+
+@media screen and (min-width:480px) {
+    #TextBar{
+        width: 350px;
+        height: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 38px;
+        color: #21243D;
+    
+    }
+}
+
+@media screen and (min-width:480px) {
+    #my-button{
+        position: absolute;
+        z-index: 2;
+        width: 33px;
+        height: 29px;
+        left: 362px;
+        border-radius: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #87CEEB;
+    }
+}
+
+
+@media screen and (min-width:480px) {
+    #icon-image{
+        margin-left: 190px;
+        font-size: 30px;
+    
+    }
+}
